@@ -9,6 +9,7 @@ class Movie:
     # String representation of the Movie object, used when printing the object
     def __str__(self):
         return f"{self.title} ({self.genre}, Rating: {self.rating}/5)"
+    # new
 
 # Class representing a user of the system
 class User:
